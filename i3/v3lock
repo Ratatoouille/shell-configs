@@ -1,6 +1,0 @@
-#!/bin/bash
-
-scrot /tmp/currentworkspace.png
-convert /tmp/currentworkspace.png -blur 0x5 /tmp/currentworkspaceblur.png
-composite -gravity southeast /home/aleksey/Pictures/Wallpapers/3840x2560.jpg /tmp/currentworkspaceblur.png /tmp/lockbackground.png
-i3lock -i /tmp/lockbackground.png
