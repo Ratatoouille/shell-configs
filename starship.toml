@@ -11,6 +11,6 @@ disabled = true
 [package]
 disabled = true
 
-[character]
-success_symbol = "[](bold green)"
-error_symbol = "[ﰸ](bold red)"
+#[character] 
+#success_symbol = "[](bold green)"
+#error_symbol = "[](bold red)"
